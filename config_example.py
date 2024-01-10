@@ -1,0 +1,5 @@
+BASEURL = "URL"
+PDF_DIR = "/usr/local/www/apache24/data/your-folder/pdf"
+IMAGES_DIR = "/usr/local/www/apache24/data/your-folder/images"
+SERVER_IP = "SERVER-IP"
+URL_PARAMS = "your-params/"

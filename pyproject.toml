@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "my-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["techicatgor <heston922@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.29.0"
+watchdog = "^3.0.0"
+streamlit-option-menu = "^0.3.6"
+streamlit-tree-select = "^0.0.5"
+pillow = "^10.2.0"
+qrcode = {extras = ["pil"], version = "^7.4.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
